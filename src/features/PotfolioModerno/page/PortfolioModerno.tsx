@@ -95,7 +95,7 @@ function ProjectsSection() {
       title: "Sistema de Gestión de Tareas",
       description:
         "Aplicación fullstack para crear, asignar y monitorear tareas en tiempo real.",
-      image: "./gestion.webp",
+      image: "/gestion.webp",
       githubLink: "https://github.com/IrinaAwesome/todo-app",
       demoLink: "https://todo-demo.vercel.app",
       techStack: ["React", "Node.js", "TypeScript", "MongoDB"],
@@ -106,7 +106,7 @@ function ProjectsSection() {
       title: "Plataforma de E-learning",
       description:
         "Web que ofrece cursos en línea con sistema de matriculación, pagos y foros.",
-      image: "./elearning.webp",
+      image: "/elearning.webp",
       githubLink: "https://github.com/IrinaAwesome/elearning-platform",
       demoLink: "https://elearning-demo.vercel.app",
       techStack: ["Next.js", "TailwindCSS", "Firebase"],
@@ -117,7 +117,7 @@ function ProjectsSection() {
       title: "API de análisis de texto",
       description:
         "API REST que procesa texto para extraer sentimientos, entidades y resumen.",
-      image: "./api.webp",
+      image: "/api.webp",
       githubLink: "https://github.com/IrinaAwesome/text-analysis-api",
       demoLink: "https://api-demo.vercel.app",
       techStack: ["Node.js", "Express", "TypeScript"],
@@ -128,7 +128,7 @@ function ProjectsSection() {
       title: "Plataforma de Streaming",
       description:
         "Web para ver y subir videos en streaming con sistema de comentarios.",
-      image: "./streaming.webp",
+      image: "/streaming.webp",
       githubLink: "https://github.com/IrinaAwesome/streaming-platform",
       demoLink: "https://streaming-demo.vercel.app",
       techStack: ["React", "Node.js", "MongoDB"],
@@ -436,7 +436,7 @@ function HeroSection() {
       >
         <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur-2xl opacity-20 slow-pulse"></div>
         <motion.img
-          src="./developer.jpg"
+          src="/developer.jpg"
           alt="Perfil"
           className="relative w-64 h-64 md:w-96 md:h-96 rounded-full object-cover border-4 border-white/10 draggable-image"
           whileHover={{
@@ -481,20 +481,20 @@ export default function PortfolioMinimalist() {
         "Trabajar con Irina fue una experiencia increíble. Su código es impecable.",
       name: "Ana López",
       position: "CTO en TechX",
-      image: "./ana.jpg",
+      image: "/ana.jpg",
     },
     {
       quote:
         "Tiene una habilidad única para resolver problemas de manera eficiente.",
       name: "Carlos Gómez",
       position: "Software Engineer en DevCorp",
-      image: "./carlos.jpg",
+      image: "/carlos.jpg",
     },
     {
       quote: "Siempre busca la mejor solución con código limpio y escalable.",
       name: "Laura Sánchez",
       position: "Lead Developer en StartUp",
-      image: "./laura.jpg",
+      image: "/laura.jpg",
     },
   ];
 

@@ -73,7 +73,7 @@ export default function PortfolioCreativo() {
         >
           <div className="w-64 h-64 bg-gradient-to-r from-purple-500 to-blue-500 transform rotate-6 rounded-lg shadow-xl flex justify-center items-center">
             <img
-              src="./mujer.webp"
+              src="/mujer.webp"
               alt="Perfil"
               className="w-60 h-60 object-cover"
             />
@@ -96,7 +96,7 @@ export default function PortfolioCreativo() {
             className="w-72 h-72 bg-gradient-to-r from-green-500 to-teal-500 transform rotate-6 rounded-lg shadow-xl flex flex-col justify-center items-center hover:scale-105 transition-all p-4 text-center"
           >
             <img
-              src="./proyecto.webp"
+              src="/proyecto.webp"
               alt="Proyecto 1"
               className="w-64 h-64 object-cover rounded-lg mb-4"
             />
@@ -112,7 +112,7 @@ export default function PortfolioCreativo() {
             className="w-72 h-72 bg-gradient-to-r from-purple-500 to-blue-500 transform -rotate-6 rounded-lg shadow-xl flex flex-col justify-center items-center hover:scale-105 transition-all p-4 text-center"
           >
             <img
-              src="./proyecto1.webp"
+              src="/proyecto1.webp"
               alt="Proyecto 2"
               className="w-64 h-64 object-cover rounded-lg mb-4"
             />
@@ -128,7 +128,7 @@ export default function PortfolioCreativo() {
             className="w-72 h-72 bg-gradient-to-r from-yellow-500 to-orange-500 transform rotate-6 rounded-lg shadow-xl flex flex-col justify-center items-center hover:scale-105 transition-all p-4 text-center"
           >
             <img
-              src="./proyecto2.webp"
+              src="/proyecto2.webp"
               alt="Proyecto 3"
               className="w-64 h-64 object-cover rounded-lg mb-4"
             />
