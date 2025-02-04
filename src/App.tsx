@@ -15,7 +15,7 @@ import PortfolioModerno from "./features/PotfolioModerno/page/PortfolioModerno";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/CodersPortfolio">
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 text-gray-900">
         <Routes>
           <Route path="/" element={<Home />} />
