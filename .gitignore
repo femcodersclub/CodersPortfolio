@@ -7,12 +7,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
 dist
 dist-ssr
 *.local
 
-# Editor directories and files
+# Editor/directorio de proyectos
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -23,16 +24,9 @@ dist-ssr
 *.sln
 *.sw?
 
-# node
-node_modules/
+# Config files (opcional, según prefieras)
+eslint.config.js
+tsconfig.json
 
-# build
-dist/
+# Build
 build/
-
-# logs
-*.log
-
-# editor configs
-.vscode/
-.idea/
